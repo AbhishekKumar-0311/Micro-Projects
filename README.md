@@ -1,5 +1,5 @@
 # Micro Projects
-This repository contains the Micro Machine Learning Tasks completed during academic and self-learning period.
+This repository contains the Micro Machine Learning Projects & Tasks completed during academic and self-learning period.
 
 ## Contents
 
