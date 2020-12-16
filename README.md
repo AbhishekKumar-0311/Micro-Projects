@@ -17,4 +17,4 @@ This repository contains the Micro Machine Learning Tasks completed during acade
 	
 	- **[EDA - Olympics Data Analysis](https://github.com/AbhishekKumar-0311/ML-Micro-Projects/tree/main/EDA-Olympics-Data-Analysis)**: In this project I have performed an Exploratory Data Analysis (EDA) to find the top performing countries in Olympics.
 
-	_Tools: Pandas, Seaborn, Matplotlib_
+	_Tools: Pandas, Seaborn, Plotly, Dash, Matplotlib_
