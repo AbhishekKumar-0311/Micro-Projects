@@ -5,6 +5,8 @@ This repository contains the Micro Machine Learning Tasks completed during acade
 
 - ### Machine Learning
 
+	- **[ML - CO2 Emission Prediction](https://github.com/AbhishekKumar-0311/Micro-Projects/tree/main/ML-CO2-Emission-Prediction)**: This project tries to identify the  macroeconomic factors that are biggest predictors of global warming i.e. global carbon dioxide emissions using Lasso Regularization Regression.
+	
 	- **[ML - SMS Classifier](https://github.com/AbhishekKumar-0311/Micro-Projects/tree/main/ML-SMS-Classifier)**: This project classifies the SMS as spam vs non-spam through naive bayes.
 	- **[ML - Telecom Churn Prediction](https://github.com/AbhishekKumar-0311/Micro-Projects/tree/main/ML-Telecom-Churn-Prediction)**: This project tries to identify the main indicators of churn and predict the customers at high risk of churn through logistic regression.
 
