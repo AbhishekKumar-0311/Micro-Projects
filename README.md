@@ -1,3 +1,4 @@
+![alt text](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/img/neural.jpg?raw=true)
 # Micro Projects
 This repository contains DataScience, Machine Learning, NLP, NeuralNet and RL related Micro Projects & Tasks completed/ongoing during academic and self-learning period.
 
