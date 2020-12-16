@@ -1,5 +1,5 @@
 # Micro Projects
-This repository contains DataScience, Machine Learning, NLP, NeuralNet and RL related Micro Projects & Tasks completed during academic and self-learning period.
+This repository contains DataScience, Machine Learning, NLP, NeuralNet and RL related Micro Projects & Tasks completed/ongoing during academic and self-learning period.
 
 ## Contents
 
