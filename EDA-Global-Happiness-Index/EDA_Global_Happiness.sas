@@ -33,9 +33,8 @@ set ip.happiness;
 if country in ( 'Macedonia','North Macedonia') then country = 'North Macedon';
 if country = 'Trinidad and Tobago' then country = 'Trinidad & Tobago';
 if country = 'Taiwan' then country = 'Taiwan Province of China';
-if country = 'Sudan' then country = 'South Sudan';
-if country = 'Somaliland region' then country = 'Somalia';
-if country = 'Somaliland Region' then country = 'Somalia';
+/*if country = 'Sudan' then country = 'South Sudan';*/
+/*if country = 'Somaliland region' then country = 'Somalia';*/
 if country = 'North Cyprus' then country = 'Northern Cyprus';
 run;
 
@@ -74,7 +73,7 @@ proc sort data = ip.happy (where = (Year=2019)) out = ip.happy_2019 ;
 by Happiness_Rank;
 run;
 
-title 'List of Top 5 , Australia and Bottom 5';
+title 'List of Top 5 , Australia and Bottom 5'; 
 proc sql;
 select count(*) into : cnt from ip.happy_2019;
 create table ip.selectedhappy as
@@ -119,10 +118,10 @@ run;
 
 title 'Scatterplot - Bivariate Analysis';
 proc sgscatter  data = ip.happy_2019;
-   plot GDP_per_Capita*Healthy_Life_Expectancy
+   plot GDP_per_Capita*Healthy_Life_Expectancy 
    / datalabel = Country grid;
    title 'GDP_per_Capita vs Healthy_Life_Expectancy';
-run;
+run; 
 /*The Life Expectancy as well GDP_per_Capita of Hong-Kong is better than Saudi Arabia.*/
 
 
@@ -132,7 +131,7 @@ title 'Scatterplot - MultiVariate Analysis';
 proc sgscatter  data = ip.happy_2019;
    matrix GDP_per_Capita Social_Support Freedom_to_make_life_choices Perceptions_of_corruption Generosity;
    title 'GDP_per_Capita vs Other Parameters';
-run;
+run; 
 
 /*Heatmap across other parameters*/
 %let vars = Social_Support Freedom_to_make_life_choices Perceptions_of_corruption Generosity;
@@ -156,9 +155,8 @@ set ip.happiness_2015;
 if country = 'Macedonia' then country = 'North Macedon';
 if country = 'Trinidad and Tobago' then country = 'Trinidad & Tobago';
 if country = 'Taiwan' then country = 'Taiwan Province of China';
-if country = 'Sudan' then country = 'South Sudan';
-if country = 'Somaliland region' then country = 'Somalia';
-if country = 'Somaliland Region' then country = 'Somalia';
+/*if country = 'Sudan' then country = 'South Sudan';*/
+/*if country = 'Somaliland region' then country = 'Somalia';*/
 if country = 'North Cyprus' then country = 'Northern Cyprus';
 run;
 
@@ -197,7 +195,7 @@ run;
 ods graphics /height=500px width=800px;
 title "Frequency table of region by year";
 proc sgplot data=FreqOut;
-  hbarparm category=Region response=count / group=Year
+  hbarparm category=Region response=count / group=Year  
       seglabel seglabelfitpolicy=none seglabelattrs=(weight=bold);
   keylegend / opaque across=1 position=bottomright location=inside;
   xaxis grid;
@@ -218,4 +216,4 @@ PANELBY SuperRegion;
    HBOX Happiness_score   / category = Region;
 
    title 'Happiness Score by region';
-RUN;
+RUN; 
