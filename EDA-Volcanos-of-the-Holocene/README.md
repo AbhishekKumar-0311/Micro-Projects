@@ -16,11 +16,13 @@ The Global Volcanism Program (GVP) at the Smithsonian Institution maintains docu
 **_1. Mount Vesuvius is a stratovolcano located in Italy that has erupted dozens of times. Does this dataset contain a list of all eruptions in the Holocene epoch and how do you know?_**
 
 ![1a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/1a.png)
+
 ![1b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/1b.png)
 
 **_2. Examine the variables Latitude, Longitude, Elevation, and Last Eruption Date and comment on whether there are any range errors or missing data._**
 
 ![2a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/2a.png)
+
 ![2b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/2b.png)
 
 **_3. Create a numeric variable for last eruption date with negative values for BCE dates and positive values for CE dates. Show your code._**
@@ -49,11 +51,13 @@ The new variables to be coded numeric variables with custom formats applied. Sho
 **_7. Describe the distribution of elevation with appropriate summary statistics and a histogram._**
 
 ![7a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/7a.png)
+
 ![7b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/7b.png)
 
 **_8. Compare the distribution of elevation by plate type with summary statistics and a boxplot. Is there a difference in elevation by plate type?_**
 
 ![8a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/8a.png)
+
 ![8b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/8b.png)
 
 **_9. Inter-plate earthquakes are responsible for around 90% of the total seismic energy produced globally each year. Is our data consistent with this value? Why/why not?_**
