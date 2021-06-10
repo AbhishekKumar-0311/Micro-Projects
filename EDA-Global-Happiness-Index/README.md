@@ -1,4 +1,5 @@
-# EDA-Volcanoes-of-the-Holocene
+![alt text](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Global-Happiness-Index/png/happiness2.png?raw=true)
+# EDA-Global-Happiness-Index
 I have explored, visualised and interpreted global happiness scores over the period 2015—2019.
 
 ### Abstract :
