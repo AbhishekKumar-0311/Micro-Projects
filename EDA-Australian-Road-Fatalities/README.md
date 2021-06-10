@@ -21,6 +21,7 @@ In this study I will investigate data on fatal crashes from January 1989 to Octo
 **_1. Merge the crashes and fatalities datasets. Describe the relationship between these datasets and what checks you need to make to ensure the merge performs correctly._**
 
 Data Profiling of Crash and Fatalities
+
 ![1a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/1a.png)
 
 The Crash data has all the unique crashes while fatalities has multiple records per crashes.
@@ -42,14 +43,17 @@ The merge is implemented correctly.
 
 ![2a1](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2a1.png)
 ![2a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2a.png)
+
 We can infer that Males tend to indulge in more Single accident.
 
 ![2b1](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2b1.png)
 ![2b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2b.png)
+
 Very few crashes have bus involvement irrespective of gender.
 
 ![2c1](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2c1.png)
 ![2c](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2c.png)
+
 Heavy truck involvement in crash is less and there are many crashes without this information.
 Approximately 2% of accidents involving male is with heavy truck, which is more than female.
 
@@ -58,16 +62,19 @@ Approximately 2% of accidents involving male is with heavy truck, which is more 
 
 ![2e1](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2e1.png)
 ![2e](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2e.png)
+
 Female tend to have more accidents during Daytime. One of the reason maybe Because Female avoid travelling at Night time. And hence there is a bigger gap between day and night for female in compared to male, who have almost similar rate across day and night.
 
 ![2f1](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2f1.png)
 ![2f](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2f.png)
+
 It is observed more crashes happen in weekday as it constitutes 5 days as compared to 2 days of weekends.
 Another reason is people tend to stay at home in contrast to the office/work travelling in weekdays.
 It applies for both the gender.
 
 
-![2g](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2g.png)
+![2g](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2g.PNG)
+
 The numbers for first part of the table are obtained from these results by PROC FREQ. and for second part the above charts are used.
 
 ![2h](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/2h.png)
@@ -76,9 +83,11 @@ The numbers for first part of the table are obtained from these results by PROC 
 **_3. Using the provided ABS time series data for the state populations, compare the number of fatalities and fatality rates per capita (deaths per 100,000 persons) by state over time. Are Australian State roads becoming safer according to these statistics? Include appropriate graphs to support your answer._**
 
 ![3a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/3a.png)
+
 The Crashes has decreased over time and is clearly visible from this time series graph. But there is a huge drop for New South Whales, Victoria and Queensland, while for other the count has been more of constant.
 
 ![3b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/png/3b.png)
+
 The fatality rate has decreased drastically for NT, while there is a consistent drop for other states also over these years.
 
 These are individual plots of Fatality Rate across states over time and In All the states it has decreased.
