@@ -8,7 +8,18 @@ The Global Volcanism Program (GVP) at the Smithsonian Institution maintains docu
 
 ### Data Understanding :
 
-1. **_A_** :
+1. **_Number_** :
+2. **_Name_** :
+3. **_Country_** :
+4. **_Region_** :
+5. **_Type_** :
+6. **_Activity Evidence_** :
+7. **_Last_Known_Eruption_** :
+8. **_Latitude_** :
+9. **_Longitude_** :
+10. **_Elevation_** :
+11. **_Rock_Type_** :
+12. **_Tectonic_Setting_** :
 
 
 ### Problem Solving :
@@ -16,7 +27,6 @@ The Global Volcanism Program (GVP) at the Smithsonian Institution maintains docu
 **_1. Mount Vesuvius is a stratovolcano located in Italy that has erupted dozens of times. Does this dataset contain a list of all eruptions in the Holocene epoch and how do you know?_**
 
 ![1a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/1a.png)
-
 ![1b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/1b.png)
 
 **_2. Examine the variables Latitude, Longitude, Elevation, and Last Eruption Date and comment on whether there are any range errors or missing data._**
