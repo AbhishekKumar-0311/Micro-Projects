@@ -1,4 +1,4 @@
-# EDA-Volcanos-of-the-Holocene
+# EDA-Volcanoes-of-the-Holocene
 The Exploratory Data Analysis is performed to understand thevolcanoes that have erupted in the last 10,000 years.
 
 ### Abstract :
