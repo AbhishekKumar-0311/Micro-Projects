@@ -1,3 +1,4 @@
+![alt text](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/volcano.jpg?raw=true)
 # EDA-Volcanoes-of-the-Holocene
 The Exploratory Data Analysis is performed to understand the volcanoes that have erupted in the last 10,000 years.
 
