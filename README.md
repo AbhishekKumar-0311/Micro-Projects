@@ -15,6 +15,12 @@ This repository contains DataScience, Machine Learning, NLP, NeuralNet and RL re
 
 - ### Exploratory Data Analysis
 
+	- **[EDA - Australian Road Fatalities](https://github.com/AbhishekKumar-0311/Micro-Projects/tree/main/EDA-Australian-Road-Fatalities)**: I have analysed the Road Accidents data to answer questions over the Road Fatalities over years.
+
+	- **[EDA - Global Happiness Index](https://github.com/AbhishekKumar-0311/Micro-Projects/tree/main/EDA-Global-Happiness-Index)**: I have explored, visualised, and interpreted global happiness scores over the period 2015—2019.
+
+	- **[EDA - Volcanoes of the Holocene](https://github.com/AbhishekKumar-0311/Micro-Projects/tree/main/EDA-Volcanos-of-the-Holocene)**: EDA is performed to understand the volcanoes that have erupted in the last 10,000 years.
+
 	- **[EDA - World Development Indicators](https://github.com/AbhishekKumar-0311/Micro-Projects/tree/main/EDA_World-Development-Indicators)**: In this project I have deployed the Plotly Dash App on Heroku, which provides UI for Exploratory Data Analysis to understand the interactions between different indicators.
 	The app can be found at [Hello World App](https://hello-world-abhi.herokuapp.com/).
 	
