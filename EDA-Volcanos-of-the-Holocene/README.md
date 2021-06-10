@@ -62,4 +62,4 @@ The new variables to be coded numeric variables with custom formats applied. Sho
 
 ### Conclusion :
 
-Click [here](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/AnalysisDocument.docx) to find the analysis of the volcanoes.
+Click [here](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/AnalysisResult/AnalysisDocument.docx) to find the analysis of the volcanoes.
