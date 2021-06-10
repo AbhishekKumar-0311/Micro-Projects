@@ -87,4 +87,4 @@ These are individual plots of Fatality Rate across states over time and In All t
 
 ### Conclusion :
 
-Click [here](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/AnalysisResult/AnalysisDocument.docx) to find the analysis of the volcanoes.
+Click [here](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Australian-Road-Fatalities/AnalysisResult/AnalysisDocument.docx) to find the analysis of Road Fatalities over years.

@@ -1,5 +1,5 @@
 # EDA-Volcanoes-of-the-Holocene
-I have explored, visualised, and interpreted global happiness scores over the period 2015—2019.
+I have explored, visualised and interpreted global happiness scores over the period 2015—2019.
 
 ### Abstract :
 
@@ -99,4 +99,4 @@ Similarly, East Asia has much better Happiness Index in Asia and Western Europe 
 
 ### Conclusion :
 
-Click [here](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Global-Happiness-Index/AnalysisResult/AnalysisDocument.docx) to find the analysis of the volcanoes.
+Click [here](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Global-Happiness-Index/AnalysisResult/AnalysisDocument.docx) to find the analysis of global happiness scores over the period 2015—2019.
