@@ -51,10 +51,11 @@ We can observe that over each bin as we move towards present, the Volcanic Erupt
 
 ![4](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/4.png)
 
-**_5. Categorise the variable tectonic setting into two new variables:
-- Platetype: Intraplate, Rift zone, Subduction zone
-- Crusttype: Continental crust, Intermediate crust, Ocean crust
-The new variables to be coded numeric variables with custom formats applied. Show the frequency tables._**
+**_5. Categorise the variable tectonic setting into two new variables:_**
+  - **_Platetype: Intraplate, Rift zone, Subduction zone_**
+  - **_Crusttype: Continental crust, Intermediate crust, Ocean crust_**
+
+**_The new variables to be coded numeric variables with custom formats applied. Show the frequency tables._**
 
 The most common type is ‘Subduction Zone Platetype with Continental Crust”
 
