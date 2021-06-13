@@ -26,12 +26,18 @@ The Global Volcanism Program (GVP) at the Smithsonian Institution maintains docu
 
 **_1. Mount Vesuvius is a stratovolcano located in Italy that has erupted dozens of times. Does this dataset contain a list of all eruptions in the Holocene epoch and how do you know?_**
 
+No, it does not contain all 12 records. There is only one record for it.
+
 ![1a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/1a.png)
 ![1b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/1b.png)
 
 **_2. Examine the variables Latitude, Longitude, Elevation, and Last Eruption Date and comment on whether there are any range errors or missing data._**
 
+There is no null in s Latitude, Longitude, Elevation, shown by NullPct
+
 ![2a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/2a.png)
+
+But Last Known Eruption has many missing values which are represented by ‘Unknown’. This is cleaned at a later stage.
 
 ![2b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/2b.png)
 
@@ -41,12 +47,16 @@ The Global Volcanism Program (GVP) at the Smithsonian Institution maintains docu
 
 **_4. Examine the frequency distribution of the numeric date variable that you created in 3._**
 
+We can observe that over each bin as we move towards present, the Volcanic Eruptions is on a rise. Here the Number of bins is 20.
+
 ![4](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/4.png)
 
 **_5. Categorise the variable tectonic setting into two new variables:
-• Platetype: Intraplate, Rift zone, Subduction zone
-• Crusttype: Continental crust, Intermediate crust, Ocean crust
+- Platetype: Intraplate, Rift zone, Subduction zone
+- Crusttype: Continental crust, Intermediate crust, Ocean crust
 The new variables to be coded numeric variables with custom formats applied. Show the frequency tables._**
+
+The most common type is ‘Subduction Zone Platetype with Continental Crust”
 
 ![5](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/5.png)
 
@@ -64,16 +74,24 @@ The new variables to be coded numeric variables with custom formats applied. Sho
 
 ![7b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/7b.png)
 
+We can observe the majority of volcanic eruption is in Interquartile range with values between 686 and 2500 m.
+
 **_8. Compare the distribution of elevation by plate type with summary statistics and a boxplot. Is there a difference in elevation by plate type?_**
+
+The subduction zone has high number of Volcanoes with high Elevations.
 
 ![8a](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/8a.png)
 
 ![8b](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/8b.png)
 
+We can clearly see, the number of volacoes with Platetype = 3 is very high with maximum elevation.
+
 **_9. Inter-plate earthquakes are responsible for around 90% of the total seismic energy produced globally each year. Is our data consistent with this value? Why/why not?_**
 
 ![9](https://github.com/AbhishekKumar-0311/Micro-Projects/blob/main/EDA-Volcanos-of-the-Holocene/png/9.png)
 
+Inter-plate earthquakes are responsible for around 90% of the total seismic energy produced globally each year.
+This is clearly visible with the chart above. And hence our data is consistent with the analysis.
 
 ### Conclusion :
 
